@@ -15,5 +15,6 @@ buttonsArr.forEach((el) =>
       townsArr.push(clickedTownName);
     }
     console.log('townsArr ===', townsArr);
+    // sendRequest(url + townsArr)
   })
 );
